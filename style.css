@@ -1,3 +1,36 @@
-body {
-
+body{
+  background-color:#DADFF7;
+  border:dotted 20px #49475B
+}
+ul{
+  list-style-type:none;
+  position: fixed;
+}
+li{
+  float:left;
+}
+li a{
+  color:white;
+  padding: 20px;
+  font-family:"fantasy", papyrus;
+  text-decoration-line:none;
+  font-weight:bold;
+  background-color:#49475B;
+  font-size:20px;
+}
+li a:hover{
+  background-color:#5D4A66;
+}
+h2{
+  font-size:300%;
+  text-decoration-line:underline;
+  font-family:"fantasy", papyrus;
+}
+p{
+  font-size:200%;
+  font-family:"fantasy", papyrus;
+}
+img{
+  border:solid 10px #49475B;
+  width:50%;
 }
